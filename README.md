@@ -1,28 +1,27 @@
 # Introduction-to-CSS
-
 1.	Introduction in CSS
 1.1 HTML and CSS:
-	CSS (Cascading Style Sheets):
-  o	Holds styles for webpages.
-  o	Enhances visual appeal.
-  o	Linked to HTML for connection.
+ CSS (Cascading Style Sheets):
+  	-Holds styles for webpages.
+  	-Enhances visual appeal.
+  	-Linked to HTML for connection.
 
 	HTML (Hypertext Markup Language):
-  o	Defines webpage structure with elements like paragraphs, headings, lists, and links.
-  o	Raw HTML appears unattractive in browsers.
+o	Defines webpage structure with elements like paragraphs, headings, lists, and links.
+o	Raw HTML appears unattractive in browsers.
 
 	CSS Components:
-  o	Selector: Defines pattern in HTML.
-  o	Declaration block: Contains styles applied to matching HTML elements.
+o	Selector: Defines pattern in HTML.
+o	Declaration block: Contains styles applied to matching HTML elements.
 
 	Cascading in CSS:
-  o	Multiple styles can apply to the same pattern.
-  o	Simplified approach in this course, not delving deep into cascading.
+o	Multiple styles can apply to the same pattern.
+o	Simplified approach in this course, not delving deep into cascading.
 
 1.2 CSS Components:
 	Each style declaration comprises:
-  o	A property
-  o	A value
+o	A property
+o	A value
 
 	Focus on a select set of properties and values during the course.
 	Emphasis on understanding selectors for targeting HTML elements.
@@ -38,9 +37,9 @@
 	HTML comments differ from CSS comments.
 	CSS comments use slash star and star slash.
 	Selectors in CSS:
-  o	Element selector targets specific HTML elements.
-  o	Example: "P" selects all paragraphs and sets color to blue
-  o	"H2" selector makes all H2 elements red.
+o	Element selector targets specific HTML elements.
+o	Example: "P" selects all paragraphs and sets color to blue
+o	"H2" selector makes all H2 elements red.
 
 	Encouragement to try writing styles for H1 and H3 elements.
 	Experiment with different colors for each heading text.
@@ -87,16 +86,16 @@
 3.1 Identifying a Color Scheme:
 	Choosing a color scheme for a website is crucial.
 	Options for creating color palettes:
-  o	Design background enables personal creation.
-  o	Use online resources like Canva's color palette generator.
+o	Design background enables personal creation.
+o	Use online resources like Canva's color palette generator.
 
 	Canva offers three methods for creating color palettes:
-  o	Extracting colors from images (e.g., donuts, canoe).
-  o	Exploring pre-made color palettes with related combinations.
-  o	Creating custom color palettes based on user preferences.
+o	Extracting colors from images (e.g., donuts, canoe).
+o	Exploring pre-made color palettes with related combinations.
+o	Creating custom color palettes based on user preferences.
 	Custom color palette creation includes options like:
-  o	Complementary, monochromatic, analogous, and triadic color combinations.
-  o	Tetradic color combinations for a square of colors.
+o	Complementary, monochromatic, analogous, and triadic color combinations.
+o	Tetradic color combinations for a square of colors.
 
 	Users can adjust saturation or try different variations of color combinations.
 	Canva provides categorized color palettes filtered by keywords.
@@ -106,18 +105,18 @@
 	Incorporate selected color palette into code.
 	Named colors: Limited selection, around 130 available in CSS.
 	Hex codes: Represent colors using hexadecimal format (six-digits)
-  o	Red, green, and blue components represented by pairs of digits.
-  o	Correspond to numbers from 0 to 255.
+o	Red, green, and blue components represented by pairs of digits.
+o	Correspond to numbers from 0 to 255.
 
 	Canva's color palettes display hex values, commonly used in web design.
 	Hex values can be shortened if each two-digit pair is the same.
 	RGB format: Specifies colors using Base 10 numbers for red, green, and blue channels.
-  o	Can be represented as an eight-digit hex number or RGBA with an alpha value for opacity.
+o	Can be represented as an eight-digit hex number or RGBA with an alpha value for opacity.
 
 	Other color formats like HSL or HSLA may be used, especially in platforms like Squarespace.
 	Converting color formats:
-  o	Google and DuckDuckGo offer color picker tools for conversions.
-  o	Color Hex website provides shades, tints, and color palettes specific to chosen colors.
+o	Google and DuckDuckGo offer color picker tools for conversions.
+o	Color Hex website provides shades, tints, and color palettes specific to chosen colors.
 
 	Resources like Google, DuckDuckGo, and Color Hex are helpful for color conversions and exploring complementary colors.
 
@@ -140,18 +139,18 @@
 	Images can be added in HTML or CSS on webpages.
 	Various image formats for the web: GIF, PNG, JPEG, bitmap, TIFF, PSD.
 	Traditionally, web supported three main image formats:
-  o	GIF: Limited colors, transparency, and animation
-  o	PNG: More colors, transparency, no animation
-  o	JPEG: Optimized for photographs, millions of colors, no transparency, or animation.
+o	GIF: Limited colors, transparency, and animation
+o	PNG: More colors, transparency, no animation
+o	JPEG: Optimized for photographs, millions of colors, no transparency, or animation.
 
 	Emergence of WebP format: Offers high compression for smaller file sizes, suitable for both photos and illustrations.
 	Importance of choosing the right image format to avoid color loss and large file sizes.
 	Tips for optimizing images: Adjust dimensions, trim unnecessary parts, resize, and reduce file size.
 	Tools like tinypng.com or Adobe Photoshop aid in reducing image file sizes without quality loss.
 	Inclusion of images in webpages:
-  o	HTML: Use the image element for placing images alongside text, essential for conveying messages like logos or icons
-  o	CSS: Allows inclusion of background images, primarily decorative and not essential to webpage text
-  o	Background images can repeat or display a portion of the image based on configuration.
+o	HTML: Use the image element for placing images alongside text, essential for conveying messages like logos or icons
+o	CSS: Allows inclusion of background images, primarily decorative and not essential to webpage text
+o	Background images can repeat or display a portion of the image based on configuration.
 
 3.5 Working with Background Images in CSS:
 	Preview background images before usage.
@@ -170,13 +169,13 @@
 4.1 Understanding Type in CSS:
 	Font and spacing contribute to web page aesthetics.
 	Fonts categorized into serif and sans serif types.
-  o	Serif fonts: Have small lines (serifs) at letter ends, historically used for print materials.
-  o	Sans serif fonts: Modern appearance, lack serifs, preferred for extended text on the web.
+o	Serif fonts: Have small lines (serifs) at letter ends, historically used for print materials.
+o	Sans serif fonts: Modern appearance, lack serifs, preferred for extended text on the web.
 
 	Default web font usually Times New Roman but varies depending on device and user settings.
 	Web fonts selection complex due to device and font availability variations
 	Font stack: Specifies multiple fonts to ensure compatibility across devices.
-  o	Example: Arial, Helvetica, sans serif
+o	Example: Arial, Helvetica, sans serif
 
 	Safe font choices include Arial, Helvetica, Verdana, Times, Times New Roman, Georgia, Trebuchet MS.
 	Google offers over a thousand web fonts for website use, loaded into web browser for consistent display.
@@ -228,10 +227,10 @@
 	Reposition the background leaves to the bottom by adding a footer element.
 	Give the footer height and add a top border for separation.
 	Adjust margins and padding for headings:
-  o	Remove margins from H1 to position it at the top.
-  o	Add padding to create space for the red bar beneath H1.
-  o	Adjust margins and padding for H2 and H3 for visual appeal.
-  o	Include decorative borders for visual distinction.
+o	Remove margins from H1 to position it at the top.
+o	Add padding to create space for the red bar beneath H1.
+o	Adjust margins and padding for H2 and H3 for visual appeal.
+o	Include decorative borders for visual distinction.
 
 	Center the image by placing it inside a paragraph with a class of "circle" and set text-align to center.
 	Utilize the border-radius property to create rounded corners for elements.
